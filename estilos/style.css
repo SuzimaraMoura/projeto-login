@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/*Versão para todas as Mídias*/
+/*Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: Acima de 1200px
+*/
+
 /*Paleta de Cores
 verde:#49a09d
 lilás:#5f2c82*/
@@ -32,6 +41,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width .3s , heigth .3s;
+    transition-timing-function: ease;
     
 }
 section#login > div#imagem{
